@@ -16,13 +16,17 @@ const setElementColor = (color) => {
   elementColor = color
 }
 
+const setInputtedText = (text) => {
+  inputtedText = text
+}
+
 // This function creates a new element and attaches to the parent element: element-collector
 const createNewElement = () => {
   const elementContainer = document.getElementById("element-collector")
   
   // create a new element with default values
   const newElement = document.createElement("H3")
-  const textNode = document.createTextNode("Hello")
+  const textNode = document.createTextNode(text)
 
   // Using dot.notation to access the new element's properties
   newElement.appendChild(textNode)

@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--  !*!*!*!*! WARNING !*!*!*!*! WARNING !*!*!*!*! WARNING !*!*!*!*! WARNING  -->
-  <!--  This page uses an older version of Animate.CSS, if you choose to upgrade you will have to update the class names. -->
+  <!--  This page uses an older version of Animate.CSS, if you choose to upgrade you will have to
+     update the class names. -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <!--  !*!*!*!*! WARNING !*!*!*!*! WARNING !*!*!*!*! WARNING !*!*!*!*! WARNING  -->
   <link rel="stylesheet" href="style.css"/>
@@ -19,6 +20,8 @@
       <input type="animation-name" id="animation-name" name="animation-name" value="" onkeyup="setAnimationName(this.value)" /><br>
       <label for="element-color">Font Color</label><br>
       <input type="element-color" id="element-color" name="element-color" value="" onkeyup="setElementColor(this.value)" /><br>
+      <label for ="inputted-text">Text</label><br>
+      <input type="inputted-text" id="inputted-text" name="inputted-text" value="" onkeyup="setInputtedText(this.value)"/><br>
       <input type="reset"/>
     </form>
     <button onclick="createNewElement()">Create New Element</button>
